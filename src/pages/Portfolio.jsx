@@ -11,7 +11,7 @@ export default function Portfolio() {
 
 function Projects() {
   return (
-    <div className="space-y-1 divide-y divide-white/50">
+    <div className="space-y-1 divide-y divide-white/50 h-screen overflow-y-scroll">
       {projects.map((project) => (
         <div className="project w-64">
           <a href={project.url}>

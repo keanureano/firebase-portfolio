@@ -5,7 +5,7 @@
 
 @layer base {
   #root {
-    @apply w-screen h-screen select-none font-primary;
+    @apply overflow-hidden w-screen h-screen select-none font-primary;
   }
 
   h1 {
