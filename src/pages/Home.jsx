@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="home w-32 space-y-4">
+    <div className="w-32 space-y-4 home md:w-36">
       <div>
         <p>Born and raised in</p>
         <p>Philippines in 2002,</p>

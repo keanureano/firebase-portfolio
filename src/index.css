@@ -17,11 +17,11 @@
   }
 
   p {
-    @apply text-sm font-semibold text-white/80;
+    @apply text-sm font-semibold md:text-base text-white/80;
   }
 
   a {
-    @apply transition cursor-pointer hover:opacity-80 hover:animate-pulse;
+    @apply text-lg transition cursor-pointer hover:opacity-80 hover:animate-pulse;
   }
 
   header a {
