@@ -5,7 +5,7 @@
 
 @layer base {
   #root {
-    @apply overflow-hidden w-screen h-screen select-none font-primary;
+    @apply w-screen h-screen overflow-hidden select-none font-primary;
   }
 
   h1 {
@@ -27,7 +27,6 @@
   header a {
     @apply hover:translate-x-1;
   }
-
 }
 
 a.active {
@@ -37,4 +36,8 @@ a.active {
 a.active::after {
   content: "";
   @apply inline-block w-0 h-0 border-[5px] border-transparent border-r-white/60;
+}
+
+.title {
+  @apply mb-4 font-semibold text-3xl;
 }

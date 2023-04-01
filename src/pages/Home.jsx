@@ -7,8 +7,8 @@ export default function Home() {
       </div>
       <div>
         <p>My goal is to fuse</p>
-        <p className="underline">Efficient coding,</p>
-        <p>with the art of</p>
+        <p className="underline">Efficient coding</p>
+        <p>with the Art of</p>
         <p className="underline">Elegant design.</p>
       </div>
       <div>
