@@ -1,7 +1,21 @@
 import { Outlet } from "react-router-dom";
 import { Link, NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import LoadingPage from "./LoadingPage";
 
 export default function Layout() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
+  if (isLoading) {
+    return <LoadingPage />;
+  }
+
   return (
     <div className="w-full h-full p-4 md:p-12 bg-black-900 text-white/90">
       <div className="bg"></div>
