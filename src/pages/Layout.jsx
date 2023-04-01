@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export default function Layout() {
   return (
     <div className="w-full h-full p-4 md:p-12 bg-black-900 text-white/90">
+      <div className="bg"></div>
       <div className="flex flex-col justify-between w-full h-full p-4 md:p-12 border border-black-400 outline outline-[200px] outline-black-900">
         <Header />
         <Main />
