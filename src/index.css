@@ -17,7 +17,7 @@
   }
 
   p {
-    @apply font-semibold text-sm text-white/80;
+    @apply text-sm font-semibold text-white/80;
   }
 
   a {
@@ -34,5 +34,10 @@
 }
 
 a.active {
-  @apply underline text-white/60 underline-offset-4 decoration-2;
+  @apply text-white/60;
+}
+
+a.active::after {
+  content: "";
+  @apply inline-block w-0 h-0 border-[5px] border-transparent border-r-white/60;
 }
