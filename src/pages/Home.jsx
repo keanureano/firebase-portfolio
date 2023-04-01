@@ -12,7 +12,7 @@ export default function Home() {
         <p className="underline">Elegant design.</p>
       </div>
       <div>
-        <p>This pursuit of mine,</p>
+        <p>This pursuit of mine</p>
         <p>originates from the</p>
         <p>belief that there is</p>
         <p>huge untapped</p>

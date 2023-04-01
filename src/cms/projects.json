@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Pluma Notes",
+    "description": "Note-taking web app with database, using React, Firebase, and Bootstrap.",
+    "url": "https://github.com/keanureano/pluma-notes"
+  },
+  {
+    "title": "Reddit PostNotif",
+    "description": "Web app that automatically searches latest posts on a specific subreddit.",
+    "url": "https://github.com/keanureano/reddit-postnotif"
+  },
+  {
+    "title": "B.Log",
+    "description": "Simple twitter/blog web-application, made using Django framework.",
+    "url": "https://github.com/keanureano/django-blogsite"
+  }
+]

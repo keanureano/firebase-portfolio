@@ -28,9 +28,6 @@
     @apply hover:translate-x-1;
   }
 
-  main a {
-    @apply hover:-translate-x-1;
-  }
 }
 
 a.active {
