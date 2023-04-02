@@ -45,8 +45,8 @@ a.active::after {
 .bg {
   background: transparent
     url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  animation: bg-animation 0.2s infinite;
-  @apply pointer-events-none fixed brightness-200 visible opacity-100 bg-repeat w-[200vw] h-[200vh] -top-1/2 -bottom-1/2 -right-1/2 -left-1/2;
+  animation: bg-animation .1s infinite;
+  @apply pointer-events-none fixed contrast-50 visible opacity-100 bg-repeat w-[200vw] h-[200vh] -top-1/2 -bottom-1/2 -right-1/2 -left-1/2;
 }
 
 @keyframes bg-animation {
@@ -90,7 +90,7 @@ a.active::after {
 }
 
 .fade-enter-active {
-  @apply opacity-100 transition duration-1000;
+  @apply transition duration-1000 opacity-100;
 }
 
 .fade-enter-done {
@@ -102,7 +102,7 @@ a.active::after {
 }
 
 .fade-exit-active {
-  @apply opacity-0 transition duration-1000;
+  @apply transition duration-1000 opacity-0;
 }
 
 .fade-exit-done {
