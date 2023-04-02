@@ -5,7 +5,7 @@
 
 @layer base {
   #root {
-    @apply w-screen h-screen overflow-hidden select-none font-primary;
+    @apply w-screen h-[100dvh] overflow-hidden select-none font-primary;
   }
 
   h1 {
@@ -45,7 +45,7 @@ a.active::after {
 .bg {
   background: transparent
     url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  animation: bg-animation .1s infinite;
+  animation: bg-animation .2s infinite;
   @apply pointer-events-none fixed contrast-50 visible opacity-100 bg-repeat w-[200vw] h-[200vh] -top-1/2 -bottom-1/2 -right-1/2 -left-1/2;
 }
 
