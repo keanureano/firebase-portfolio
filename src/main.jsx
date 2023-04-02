@@ -5,11 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
+import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
-import { useLocation } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -22,8 +20,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "portfolio/",
-        element: <Portfolio />,
+        path: "projects/",
+        element: <Projects />,
       },
       {
         path: "about/",

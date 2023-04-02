@@ -8,7 +8,6 @@ export default function Layout() {
   const [isLoading, setIsLoading] = useState(true);
   const [isMain, setIsMain] = useState(true);
   const navigate = useNavigate();
-  const nodeRef = useRef(null);
 
   useEffect(() => {
     setTimeout(() => {
@@ -32,7 +31,7 @@ export default function Layout() {
   return (
     <div className="w-full h-full p-4 md:p-12 bg-black-900 text-white/90">
       <div className="bg"></div>
-      <div className="fade-in-onload flex flex-col justify-between w-full h-full p-4 md:p-12 border border-black-400 outline outline-[200px] outline-black-900">
+      <div className="fade-in-onload flex flex-col justify-between w-full h-full p-4 md:p-12 border border-black-400 outline outline-[200px] outline-black-950">
         <Header isMainHandler={isMainHandler} />
         <Main isMain={isMain} />
       </div>
@@ -55,8 +54,8 @@ function Header({ isMainHandler }) {
           <NavLink to="/" onClick={isMainHandler}>
             Home
           </NavLink>
-          <NavLink to="/portfolio" onClick={isMainHandler}>
-            Portfolio
+          <NavLink to="/projects" onClick={isMainHandler}>
+            Projects
           </NavLink>
           <NavLink to="/about" onClick={isMainHandler}>
             About
@@ -76,7 +75,7 @@ function Main({ isMain }) {
     <CSSTransition
       nodeRef={nodeRef}
       in={isMain}
-      timeout={500}
+      timeout={1000}
       classNames="fade"
     >
       <main ref={nodeRef} className="flex justify-end">

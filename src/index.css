@@ -90,7 +90,7 @@ a.active::after {
 }
 
 .fade-enter-active {
-  @apply opacity-100 transition;
+  @apply opacity-100 transition duration-1000;
 }
 
 .fade-enter-done {
@@ -102,7 +102,7 @@ a.active::after {
 }
 
 .fade-exit-active {
-  @apply opacity-0 transition;
+  @apply opacity-0 transition duration-1000;
 }
 
 .fade-exit-done {
@@ -117,10 +117,10 @@ a.active::after {
 
 @keyframes fade-in-animation {
   from {
-    opacity: 0;
+    @apply opacity-0;
   }
   to {
-    opacity: 1;
+    @apply opacity-100;
   }
 }
 

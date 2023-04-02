@@ -1,15 +1,15 @@
 import projects from "../cms/projects.json";
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <div>
-      <h1 className="title">Portfolio</h1>
-      <Projects />
+      <h1 className="title">Projects</h1>
+      <ProjectsList />
     </div>
   );
 }
 
-function Projects() {
+function ProjectsList() {
   return (
     <div className="space-y-4 overflow-y-scroll divide-y divide-white/50 scrollbar-hide">
       {projects.map((project) => (
