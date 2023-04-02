@@ -84,3 +84,51 @@ a.active::after {
     transform: translate(5%, 0);
   }
 }
+
+.fade-enter {
+  @apply opacity-0;
+}
+
+.fade-enter-active {
+  @apply opacity-100 transition;
+}
+
+.fade-enter-done {
+  @apply opacity-100;
+}
+
+.fade-exit {
+  @apply opacity-100;
+}
+
+.fade-exit-active {
+  @apply opacity-0 transition;
+}
+
+.fade-exit-done {
+  @apply opacity-0;
+}
+
+.fade-in-onload {
+  animation: fade-in-animation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

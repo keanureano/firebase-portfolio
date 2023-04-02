@@ -11,9 +11,12 @@ export default function Portfolio() {
 
 function Projects() {
   return (
-    <div className="h-screen pr-4 space-y-4 overflow-y-scroll divide-y divide-white/50">
+    <div className="space-y-4 overflow-y-scroll divide-y divide-white/50 scrollbar-hide">
       {projects.map((project) => (
-        <div className="w-48 project md:w-72 py-1">
+        <div
+          key={project.title}
+          className="w-48 py-1 project md:w-72 hover:translate-x-2 transition"
+        >
           <a href={project.url}>
             <h2 className="font-semibold">{project.title}</h2>
             <p className="font-medium">{project.description}</p>

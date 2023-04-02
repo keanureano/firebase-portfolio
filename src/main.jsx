@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { useLocation } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
