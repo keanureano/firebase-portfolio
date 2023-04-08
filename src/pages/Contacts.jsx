@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 export default function Contacts() {
   return (
     <div className="w-72">
-      <h1 className="title">Contact.</h1>
+      <h1 className="title">Contact Me.</h1>
       <div className="flex gap-2">
         {contacts.map((contact) => {
           return (

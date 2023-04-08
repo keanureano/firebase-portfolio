@@ -3,7 +3,7 @@ import projects from "../cms/projects.json";
 export default function Projects() {
   return (
     <div>
-      <h1 className="title">Projects.</h1>
+      <h1 className="title">My Projects.</h1>
       <ProjectsList />
     </div>
   );
