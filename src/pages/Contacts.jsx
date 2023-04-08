@@ -13,6 +13,7 @@ export default function Contacts() {
               url={contact.url}
               className="social-icon"
               bgColor="#e9e9e9"
+              style={{ width: 40, height: 40 }}
             />
           );
         })}
