@@ -1,11 +1,7 @@
 export default function Home() {
   return (
     <div className="w-32 space-y-4 home md:w-36">
-      <h1 className="title">Me.</h1>
-      <div>
-        <p>Born and raised in</p>
-        <p>Philippines in 2002,</p>
-      </div>
+      <h1 className="title">Hi, I'm Keanu.</h1>
       <div>
         <p>My goal is to fuse</p>
         <p className="underline">Efficient coding</p>
