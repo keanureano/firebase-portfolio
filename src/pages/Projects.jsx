@@ -18,8 +18,8 @@ function ProjectsList() {
           className="w-48 py-1 project md:w-72 hover:translate-x-2 transition"
         >
           <a href={project.url}>
-            <h2 className="font-semibold">{project.title}</h2>
-            <p className="font-medium">{project.description}</p>
+            <h2 className="font-semibold text-sm">{project.title}</h2>
+            <p className="font-medium text-xs">{project.description}</p>
           </a>
         </div>
       ))}

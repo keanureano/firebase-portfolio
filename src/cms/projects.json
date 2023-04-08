@@ -1,5 +1,10 @@
 [
   {
+    "title": "WebJourn",
+    "description": "A visually appealing blogging platform built with Django, React, and Tailwind.",
+    "url": "https://github.com/keanureano/webjourn"
+  },
+  {
     "title": "Pluma Notes",
     "description": "Note-taking web app with database, using React, Firebase, and Bootstrap.",
     "url": "https://github.com/keanureano/pluma-notes"

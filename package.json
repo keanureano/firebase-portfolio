@@ -7,12 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "firebase deploy",
-    "bd": "npm run build && npm run deploy"
+    "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-social-icons": "^5.15.0",
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {

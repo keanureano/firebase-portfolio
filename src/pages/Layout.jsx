@@ -57,9 +57,6 @@ function Header({ isMainHandler }) {
           <NavLink to="/projects" onClick={isMainHandler}>
             Projects
           </NavLink>
-          <NavLink to="/about" onClick={isMainHandler}>
-            About
-          </NavLink>
           <NavLink to="/contact" onClick={isMainHandler}>
             Contact
           </NavLink>
