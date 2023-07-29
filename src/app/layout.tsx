@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -13,7 +14,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-screen-md px-4 mx-auto">{children}</body>
+      <body className="max-w-screen-md px-4 mx-auto">
+        <header>
+          <nav>
+            <Link href="#">Home</Link>
+          </nav>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }

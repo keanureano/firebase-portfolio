@@ -1,4 +1,5 @@
 import Markdown from "@/components/Markdown";
+import SiteMap from "@/components/SiteMap";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <div className="md:flex space-x-8">
         <Markdown file="landing/Introduction.md" />
         <Markdown file="landing/Table.md" />
+        <SiteMap />
         <hr />
       </div>
     </main>
