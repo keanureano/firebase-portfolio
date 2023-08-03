@@ -4,7 +4,7 @@ import SiteMap from "@/components/SiteMap";
 export default function Home() {
   return (
     <main>
-      <div className="md:flex space-x-8">
+      <div className="md:flex md:space-x-8">
         <Markdown file="landing/Introduction.md" />
         <Markdown file="landing/Table.md" />
         <SiteMap />

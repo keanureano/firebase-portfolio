@@ -15,7 +15,7 @@ export default function Markdown({ file }: MarkdownProps) {
 
   return (
     <ReactMarkdown
-      className="mx-auto w-full prose prose-amber"
+      className="mx-auto w-full prose prose-sm prose-amber"
       children={content}
       remarkPlugins={[remarkGfm]}
     />
